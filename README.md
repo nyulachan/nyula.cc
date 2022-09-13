@@ -1,3 +1,3 @@
 # nyula
 i work on nyula on my freetime
-contact me at [discord](https://www.discord.gg/AKvFNhfmYk)
+contact me at my [discord server](https://www.discord.gg/AKvFNhfmYk)
