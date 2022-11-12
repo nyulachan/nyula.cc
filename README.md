@@ -46,6 +46,44 @@ if not _G.isloaded then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/nyulachan/nyula/main/smooth"))()
 end
 ```
+### Aimlock
+```
+_G.aimlock = {
+    ["Key"] = "e",
+    ["Mode"] = "Toggle", -- "Toggle" or "Hold"
+    ["Prediction"] = 0.14284, -- Lower for Lower Ping, Higher for Higher Ping
+    ["Auto-Prediction"] = true, -- Kinda iffy
+    ["Aimpart"] = "HumanoidRootPart", -- "Head", or any body part
+    ["Smoothing"] = false,
+    ["Smoothing-Amount"] = 0.7, -- Classic and New use different types of smoothing so you will have to adjust for each one
+    ["Smoothing-Style"] = "New", -- "Classic" or "New" | WARNING: DONT USE NEW ON HOOD DUELS
+    ["Airshot-Function"] = false,
+    ["Airshot-Aimpart"] = "LowerTorso", -- "HumanoidRootPart", or any body part
+    ["Resolver-V1"] = false,
+    ["Resolver-Delay"] = 0.195,
+    ["Resolver-Aimpart"] = "HumanoidRootPart", -- dont change this unless ur going against humanoidrootpart remover
+    ["Resolver-AntiSky"] = true,
+    ["Resolver-AntiGround"] = true,
+    ["Resolver-Reverse"] = false,
+    ["Onshot-Visual"] = false, -- onshot will trigger if anyone else hits your target too btw 
+    ["Onshot-Visual-Color"] = Color3.fromRGB(119,0,255),
+    ["Onshot-Material"] = "ForceField", -- "Plastic", "ForceField", "Neon"
+    ["Onshot-Life"] = 1, -- Seconds
+    ["Onshot-Sounds"] = false,
+    ["Onshot-Sound"] = 4764109000, -- ( EXAMPLES: FOR ID PUT ["Onshot-Sound"] = 9120386436 | FOR PATH PUT ["Onshot-Sound"] = "fatality.wav" <- FILE WOULD BE LOCATED AT executor/workspace/fatality.wav )
+    ["Check-For-Part"] = "HumanoidRootPart", -- dont change this unless ur going against humanoidrootpart remover
+    ["FOV-Check"] = true,
+    ["FOV-Check-Color"] = Color3.fromRGB(119,0,255),
+    ["FOV-Size"] = 100,
+    ["Circle-Thickness"] = 2,
+    ["Filled-Circle"] = false,
+    ["Circle-Transparency"] = 1, --Invisible
+    ["Visible-Check"] = false,
+    ["Down-Check"] = false -- Tested on Hood Customs and Untitled Hood, dk if it works on da hood or any other game
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nyulachan/nyula/main/Standalones/Aimlock", true))()
+```
 ### Nyula UH V4
 ```loadstring(game:HttpGet("https://raw.githubusercontent.com/nyulachan/nyula/main/nyulauhv4", true))()```
 ### Nyula UH V3
