@@ -46,7 +46,7 @@ if not _G.isloaded then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/nyulachan/nyula/main/smooth"))()
 end
 ```
-### Aimlock
+### Standalone Aimlock
 ```
 _G.aimlock = {
     ["Key"] = "e",
