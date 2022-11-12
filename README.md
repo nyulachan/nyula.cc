@@ -79,7 +79,8 @@ _G.aimlock = {
     ["Filled-Circle"] = false,
     ["Circle-Transparency"] = 1, --Invisible
     ["Visible-Check"] = false,
-    ["Down-Check"] = false -- Tested on Hood Customs and Untitled Hood, dk if it works on da hood or any other game
+    ["Down-Check"] = false, -- Tested on Hood Customs and Untitled Hood, dk if it works on da hood or any other game
+    ["Hood-Customs"] = false, -- use if hood duels
 }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/nyulachan/nyula/main/Standalones/Aimlock", true))()
