@@ -71,7 +71,7 @@ _G.aimlock = {
     ["Onshot-Life"] = 1, -- Seconds
     ["Onshot-Sounds"] = false,
     ["Onshot-Sound"] = 4764109000, -- ( EXAMPLES: FOR ID PUT ["Onshot-Sound"] = 9120386436 | FOR PATH PUT ["Onshot-Sound"] = "fatality.wav" <- FILE WOULD BE LOCATED AT executor/workspace/fatality.wav )
-    ["Check-For-Part"] = "HumanoidRootPart", -- dont change this unless ur going against humanoidrootpart remover
+    ["Check-For-Part"] = "HumanoidRootPart",
     ["FOV-Check"] = true,
     ["FOV-Check-Color"] = Color3.fromRGB(119,0,255),
     ["FOV-Size"] = 100,
@@ -80,6 +80,7 @@ _G.aimlock = {
     ["Circle-Transparency"] = 1, --Invisible
     ["Visible-Check"] = false,
     ["Down-Check"] = false, -- Tested on Hood Customs and Untitled Hood, dk if it works on da hood or any other game
+    ["Unlock-If-Down"] = false,
     ["Hood-Duels"] = false, -- use if hood duels
 }
 
